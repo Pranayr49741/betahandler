@@ -26,6 +26,8 @@ class Config(object):
     EVENT_LOGS = (
         -1001506824512
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    ALLOW_CHATS = True
+
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
