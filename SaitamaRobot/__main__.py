@@ -4,6 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
+from consts import API_HASH, API_ID
 from SaitamaRobot import (
     ALLOW_EXCL,
     CERT_PATH,
