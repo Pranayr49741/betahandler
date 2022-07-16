@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from consts import API_HASH, API_ID
+from config import API_HASH, API_ID, TOKEN, OWNER_ID, OWNER_USERNAME, SUPPORT_CHAT, JOIN_LOGGER, EVENT_LOGS 
 from SaitamaRobot import (
     ALLOW_EXCL,
     CERT_PATH,
