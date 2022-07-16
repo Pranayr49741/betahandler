@@ -26,7 +26,9 @@ class Config(object):
     EVENT_LOGS = (
         -1001506824512
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    ALLOW_CHATS = True
+    ALLOW_CHATS = (
+        -1001506824512
+    )
 
 
     # RECOMMENDED
