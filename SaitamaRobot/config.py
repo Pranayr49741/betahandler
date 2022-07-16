@@ -4,7 +4,7 @@ import os
 
 
 def get_user_list(config, key):
-    with open("SaitamaRobot/__main__.py".format(os.getcwd(), config), "r") as json_file:
+    with open("SaitamaRobot/__init__.py".format(os.getcwd(), config), "r") as json_file:
         return json.load(json_file)[key]
 
 
