@@ -5,8 +5,8 @@ import os
 
 def get_user_list(config, key):
     with open("SaitamaRobot/__init__.py".format(os.getcwd(), config), "r") as json_file:
-        data= json.load(json_file)
-        print(data)
+        return json.load(json_file)
+        
 
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 class Config(object):
